@@ -44,6 +44,12 @@
       description="Declination"
       required="True"/>
 
+    <column name="sflag" type="integer"
+      ucd="meta.code.error"
+      tablehead="source_flag" verbLevel="1"
+      description="Source Flag"
+      required="True"/>
+
     <column name="BZCat" type="text"
       ucd="meta.id.assoc"
       tablehead="5BZCat_counterpart" verbLevel="1"
@@ -123,7 +129,7 @@
       <FEED source="//scs#coreDescs"/>
     </dbCore>
 
-    <!--publish render="scs.xml" sets="local"/-->
+    <publish render="scs.xml" sets="local"/>
     <publish render="form" sets="local"/>
     <outputTable verbLevel="20"/>
   </service>
