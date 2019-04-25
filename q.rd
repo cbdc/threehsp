@@ -74,13 +74,13 @@
       description="Synchrotron Peak flag"
       required="True"/>
 
-    <column name="redshift" type="real"
+    <column name="z" type="text"
       ucd="src.redshift"
       tablehead="z" verbLevel="1"
       description="Redshfit"
       required="True"/>
 
-   <column name="zflag" type="integer"
+   <column name="zflag" type="text"
      ucd="meta.code.error"
      tablehead="z_flag" verbLevel="1"
      description="Redshift Flag"
