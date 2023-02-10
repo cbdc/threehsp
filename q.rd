@@ -107,7 +107,7 @@
   </table>
 
   <data id="import">
-    <sources>3HSP.fits</sources>
+    <sources>3HSPR_V2.fits</sources>
 
     <fitsTableGrammar/>
 
